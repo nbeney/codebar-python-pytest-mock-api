@@ -8,7 +8,7 @@
 # In the last 3 tests, the whole 'main.DemoApiClient' class is mocked (aka monkey-patched). In particular no methods
 # from this class are executed anymore.
 #
-# Of course in real-life we would have only one test and 'DemoApiClient' would be replaced by areal API like
+# Of course in real-life we would have only one test and 'DemoApiClient' would be replaced by a real API like
 # 'twilio.rest.Client'.
 #
 # By default pytest hides the logging output. To prevent this, run the tests with:
